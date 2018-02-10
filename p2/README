@@ -1,0 +1,21 @@
+Assignment 2
+Cameron Elwood
+V00152812
+2017/11/06
+
+This assignment is a simulation of an airport control system.
+It uses pthread_cond's as its queues, using counters for each customer to guarantee they leave the queue at the correct time.
+To run the code, you need to type make into the command line. This will create the binary.
+To run the provided tests (in the directory testfiles) type ./runner or click the runner bash.
+This will run 9 tests, which should all run to completion.
+To run this manually, type in the command line "./ACS" and hit enter.
+This will then prompt the user with ACS > where the user types in a text file.
+The program will then run through the file (assuming it is of correct input, and it will exclude negative values).
+The program will then prompt again for another file, the user can either exit or type "end" then enter to exit.
+
+
+Test files cover the negative values (test file 4, 6,7,8,9) identical arrivals of customers (test 2, 5), normal case (test 1) and 1 at a time (case 3)
+
+Having identical arrival time of customers with different process time was excluded as the only metric that could be measured, ie average process time,
+would no longer be consistent and would be difficult to properly verify.
+

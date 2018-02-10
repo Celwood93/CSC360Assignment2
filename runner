@@ -1,0 +1,13 @@
+#!/bin/bash
+
+make
+for i in {1..1};
+do
+#to print to a command line
+printf 'testfiles/test1.txt\ntestfiles/test2.txt\ntestfiles/test3.txt\ntestfiles/test4.txt\ntestfiles/test5.txt\ntestfiles/test6.txt\ntestfiles/test7.txt\ntestfiles/test8.txt\ntestfiles/test9.txt\nend\n' | ./ACS
+
+#to print results to an output file
+#printf 'testfiles/test1.txt\ntestfiles/test2.txt\ntestfiles/test3.txt\ntestfiles/test5.txt\nend\n' | ./ACS > outputfiles/testoutput${i}.txt
+#echo "${i} done"
+done
+sleep 5

@@ -1,0 +1,36 @@
+ACS: > testfiles/test5.txt
+size: 8
+A customer arrives: customer ID  3. 
+A customer arrives: customer ID  4. 
+A customer arrives: customer ID  1. 
+Customer 4 enters a queue: the queue ID 1, and queue location  1. 
+Customer 3 enters a queue: the queue ID 2, and queue location  1. 
+Customer 1 enters a queue: the queue ID 3, and queue location  1. 
+A customer arrives: customer ID  2. 
+A customer arrives: customer ID  5. 
+Customer 2 enters a queue: the queue ID 4, and queue location  1. 
+A customer arrives: customer ID  6. 
+Customer 6 enters a queue: the queue ID 2, and queue location  2. 
+Customer 5 enters a queue: the queue ID 1, and queue location  2. 
+A customer arrives: customer ID  8. 
+Customer 8 enters a queue: the queue ID 3, and queue location  2. 
+A customer arrives: customer ID  7. 
+A clerk starts serving a customer: time in queue 0.00, service start time 0.20, the customer ID  4, the clerk ID 2. 
+Customer 7 enters a queue: the queue ID 1, and queue location  2. 
+A clerk finishes serving a customer: end time 0.40, the customer ID  4, the clerk ID 2. 
+A clerk starts serving a customer: time in queue 0.20, service start time 0.40, the customer ID  3, the clerk ID 2. 
+A clerk finishes serving a customer: end time 0.60, the customer ID  3, the clerk ID 2. 
+A clerk starts serving a customer: time in queue 0.40, service start time 0.60, the customer ID  1, the clerk ID 2. 
+A clerk finishes serving a customer: end time 0.80, the customer ID  1, the clerk ID 2. 
+A clerk starts serving a customer: time in queue 0.60, service start time 0.80, the customer ID  8, the clerk ID 2. 
+A clerk finishes serving a customer: end time 1.00, the customer ID  8, the clerk ID 2. 
+A clerk starts serving a customer: time in queue 0.80, service start time 1.00, the customer ID  7, the clerk ID 1. 
+A clerk starts serving a customer: time in queue 0.80, service start time 1.00, the customer ID  5, the clerk ID 2. 
+A clerk finishes serving a customer: end time 1.20, the customer ID  7, the clerk ID 1. 
+A clerk finishes serving a customer: end time 1.20, the customer ID  5, the clerk ID 2. 
+A clerk starts serving a customer: time in queue 1.00, service start time 1.20, the customer ID  2, the clerk ID 2. 
+A clerk starts serving a customer: time in queue 1.00, service start time 1.20, the customer ID  6, the clerk ID 1. 
+A clerk finishes serving a customer: end time 1.40, the customer ID  2, the clerk ID 2. 
+A clerk finishes serving a customer: end time 1.40, the customer ID  6, the clerk ID 1. 
+The average waiting time for all customers in the system is: 0.60 seconds
+ACS: > end
